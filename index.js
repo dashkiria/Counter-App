@@ -5,7 +5,7 @@ console.log(substract)
 substract.addEventListener("click",function(){
     let output = document.querySelector('#result');
     let result = Number(output.textContent) -  1;
-    if (result< 0 ){
+    if (result> 0 ){
 
     }else {
         output.textContent = result;
